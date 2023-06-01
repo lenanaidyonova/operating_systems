@@ -1,0 +1,112 @@
+F S     PID    PPID CLS PRI  NI STAT CMD                         RTPRIO
+4 S    2326    1887  TS  19   0 Ssl+ /usr/lib/gdm3/gdm-x-session      -
+4 S    2328    2326  TS  19   0 Sl+   \_ /usr/lib/xorg/Xorg vt2       -
+0 S    2352    2326  TS  19   0 Sl+   \_ /usr/libexec/gnome-sess      -
+1 S    2422    2352  TS  19   0 Ss        \_ /usr/bin/ssh-agent       -
+1 S    2246       1  TS  19   0 SLl  /usr/bin/gnome-keyring-daem      -
+4 S    2232       1  TS  19   0 Ss   /lib/systemd/systemd --user      -
+5 S    2233    2232  TS  19   0 S     \_ (sd-pam)                     -
+0 S    2238    2232  TS  30 -11 S<sl  \_ /usr/bin/pulseaudio --d      -
+0 S    2240    2232 IDL   0   - SNsl  \_ /usr/libexec/tracker-mi      0
+0 S    2243    2232  TS  19   0 Ss    \_ /usr/bin/dbus-daemon --      -
+0 S    2263    2232  TS  19   0 Ssl   \_ /usr/libexec/gvfsd           -
+0 S    2646    2263  TS  19   0 Sl    |   \_ /usr/libexec/gvfsd-      -
+0 S    4251    2263  TS  19   0 Sl    |   \_ /usr/libexec/gvfsd-      -
+0 S    4267    2263  TS  19   0 Sl    |   \_ /usr/libexec/gvfsd-      -
+0 S    2268    2232  TS  19   0 Sl    \_ /usr/libexec/gvfsd-fuse      -
+0 S    2275    2232  TS  19   0 Ssl   \_ /usr/libexec/gvfs-udisk      -
+0 S    2283    2232  TS  19   0 Ssl   \_ /usr/libexec/gvfs-mtp-v      -
+0 S    2291    2232  TS  19   0 Ssl   \_ /usr/libexec/gvfs-goa-v      -
+0 S    2295    2232  TS  19   0 SLl   \_ /usr/libexec/goa-daemon      -
+0 S    2302    2232  TS  19   0 Sl    \_ /usr/libexec/goa-identi      -
+0 S    2308    2232  TS  19   0 Ssl   \_ /usr/libexec/gvfs-afc-v      -
+0 S    2313    2232  TS  19   0 Ssl   \_ /usr/libexec/gvfs-gphot      -
+0 S    2455    2232  TS  19   0 Ssl   \_ /usr/libexec/at-spi-bus      -
+0 S    2460    2455  TS  19   0 S     |   \_ /usr/bin/dbus-daemo      -
+0 S    2482    2232  TS  19   0 Ssl   \_ /usr/libexec/gnome-sess      -
+0 S    2489    2232  TS  19   0 Ssl   \_ /usr/libexec/gnome-sess      -
+0 S    2696    2489  TS  19   0 Sl    |   \_ /usr/libexec/evolut      -
+0 S    2724    2489  TS  19   0 Sl    |   \_ /usr/libexec/gsd-di      -
+0 S    4108    2489  TS  19   0 Sl    |   \_ update-notifier          -
+0 R    2503    2232  TS  19   0 Rsl   \_ /usr/bin/gnome-shell         -
+0 S    2544    2503  TS  19   0 Sl    |   \_ ibus-daemon --panel      -
+0 S    2548    2544  TS  19   0 Sl    |       \_ /usr/libexec/ib      -
+0 S    2549    2544  TS  19   0 Sl    |       \_ /usr/libexec/ib      -
+0 S    2743    2544  TS  19   0 Sl    |       \_ /usr/libexec/ib      -
+0 S    2551    2232  TS  19   0 Sl    \_ /usr/libexec/ibus-x11 -      -
+0 S    2554    2232  TS  19   0 Sl    \_ /usr/libexec/ibus-porta      -
+0 S    2565    2232  TS  19   0 Sl    \_ /usr/libexec/at-spi2-re      -
+0 S    2569    2232  TS  19   0 Ssl   \_ /usr/libexec/xdg-permis      -
+0 S    2571    2232  TS  19   0 Sl    \_ /usr/libexec/gnome-shel      -
+0 S    2580    2232  TS  19   0 Ssl   \_ /usr/libexec/evolution-      -
+0 S    2588    2232  TS  19   0 Sl    \_ /usr/libexec/dconf-serv      -
+0 S    2591    2232  TS  19   0 Ssl   \_ /usr/libexec/gvfsd-meta      -
+0 S    2599    2232  TS  19   0 Ssl   \_ /usr/libexec/evolution-      -
+0 S    2617    2232  TS  19   0 Ssl   \_ /usr/libexec/evolution-      -
+0 S    2634    2232  TS  19   0 Sl    \_ /usr/bin/gjs /usr/share      -
+0 S    2656    2232  TS  19   0 Ssl   \_ /usr/libexec/gsd-a11y-s      -
+0 S    2657    2232  TS  19   0 Ssl   \_ /usr/libexec/gsd-color       -
+0 S    2658    2232  TS  19   0 Ssl   \_ /usr/libexec/gsd-dateti      -
+0 S    2661    2232  TS  19   0 Ssl   \_ /usr/libexec/gsd-housek      -
+0 S    2664    2232  TS  19   0 Ssl   \_ /usr/libexec/gsd-keyboa      -
+0 S    2665    2232  TS  19   0 Ssl   \_ /usr/libexec/gsd-media-      -
+0 S    2668    2232  TS  19   0 Ssl   \_ /usr/libexec/gsd-power       -
+0 S    2671    2232  TS  19   0 Ssl   \_ /usr/libexec/gsd-print-      -
+0 S    2673    2232  TS  19   0 Ssl   \_ /usr/libexec/gsd-rfkill      -
+0 S    2674    2232  TS  19   0 Ssl   \_ /usr/libexec/gsd-screen      -
+0 S    2678    2232  TS  19   0 Ssl   \_ /usr/libexec/gsd-sharin      -
+0 S    2680    2232  TS  19   0 Ssl   \_ /usr/libexec/gsd-smartc      -
+0 S    2681    2232  TS  19   0 Ssl   \_ /usr/libexec/gsd-sound       -
+0 S    2683    2232  TS  19   0 Ssl   \_ /usr/libexec/gsd-usb-pr      -
+0 S    2687    2232  TS  19   0 Ssl   \_ /usr/libexec/gsd-wacom       -
+0 S    2689    2232  TS  19   0 Ssl   \_ /usr/libexec/gsd-wwan        -
+0 S    2692    2232  TS  19   0 Ssl   \_ /usr/libexec/gsd-xsetti      -
+4 S    2784    2232  TS  19   0 Sl    \_ /snap/snap-store/638/us      -
+0 S    2817    2232  TS  19   0 Ssl   \_ /usr/libexec/xdg-docume      -
+0 S    2837    2232  TS  19   0 Sl    \_ /usr/libexec/gsd-printe      -
+0 S    2938    2232  TS  19   0 Ssl   \_ /usr/libexec/xdg-deskto      -
+0 S    2942    2232  TS  19   0 Ssl   \_ /usr/libexec/xdg-deskto      -
+4 S    3838    2232  TS  19   0 SLl   \_ /opt/google/chrome/chro      -
+0 S    3844    3838  TS  19   0 S     |   \_ cat                      -
+0 S    3845    3838  TS  19   0 S     |   \_ cat                      -
+0 S    3855    3838  TS  19   0 S     |   \_ /opt/google/chrome/      -
+1 S    3883    3855  TS  19   0 Sl    |   |   \_ /opt/google/chr      -
+4 S    3856    3838  TS  19   0 S     |   \_ /opt/google/chrome/      -
+4 S    3857    3856  TS  19   0 S     |   |   \_ /opt/google/chr      -
+5 S    3860    3856  TS  19   0 S     |   |   \_ /opt/google/chr      -
+1 S    3897    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+1 S   44382    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+1 S   45852    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+1 S   67683    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+1 S   68210    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+1 S   68219    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+1 S   74975    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+1 S   82613    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+1 S   82878    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+1 S   82941    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+1 S   82949    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+1 S   85784    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+1 S  107796    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+1 S  107860    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+1 S  107924    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+1 S  108404    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+1 S  108688    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+1 S  108702    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+1 S  108750    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+1 S  108758    3860  TS  19   0 Sl    |   |       \_ /opt/google      -
+0 S    3884    3838  TS  19   0 Sl    |   \_ /opt/google/chrome/      -
+0 S    4318    3838  TS  19   0 Sl    |   \_ /opt/google/chrome/      -
+0 S    3847    2232  TS  19   0 Sl    \_ /opt/google/chrome/chro      -
+0 S    3849    2232  TS  19   0 Sl    \_ /opt/google/chrome/chro      -
+0 S   69110    2232  TS  19   0 Sl    \_ /usr/lib/libreoffice/pr      -
+0 S   69148   69110  TS  19   0 Sl    |   \_ /usr/lib/libreoffic      -
+0 S   83239    2232  TS  19   0 Sl    \_ /usr/bin/nautilus --gap      -
+0 S   84607    2232  TS  19   0 Sl    \_ /usr/bin/gedit --gappli      -
+0 S   84799    2232  TS  19   0 Ssl   \_ /usr/libexec/gnome-term      -
+0 S   84807   84799  TS  19   0 Ss    |   \_ bash                     -
+0 S  108877   84807  TS  19   0 S+    |       \_ ./father             -
+0 S  108878  108877  TS  19   0 S+    |           \_ son              -
+0 S  108879  108877  TS  19   0 S+    |           \_ son              -
+0 S  108880  108877  TS  19   0 S+    |           \_ sh -c ps -o      -
+4 R  108881  108880  TS  19   0 R+    |               \_ ps -o f      -
+0 S  108866    2232  TS  19   0 Ssl   \_ /usr/libexec/tracker-st      -

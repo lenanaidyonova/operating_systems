@@ -1,0 +1,8 @@
+F S     PID    PPID    SPID CLS PRI  NI STAT CMD                         RTPRIO
+1 S    9563    9562    9563  TS  19   0 Sl+  ./a.out                          -
+1 R    9563    9562    9567  TS  19   0 Rl+  ./a.out                          -
+1 R    9563    9562    9570  TS  19   0 Rl+  ./a.out                          -
+1 R    9563    9562    9573  TS  19   0 Rl+  ./a.out                          -
+1 S    9563    9562    9578  TS  19   0 Sl+  ./a.out                          -
+1 R    9563    9562    9583  TS  19   0 Rl+  ./a.out                          -
+1 R    9563    9562    9585  TS  19   0 Rl+  ./a.out                          -

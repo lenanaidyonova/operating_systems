@@ -1,0 +1,4 @@
+6689481 -rw-rw-r-- 4 helena helena      0 фев 20 21:33 hard4.txt
+6689481 -rw-rw-r-- 4 helena helena     0 фев 20 21:33 hard3.txt
+6689481 -rw-rw-r--  4 helena helena     0 фев 20 21:33 hard1.txt
+6689481 -rw-rw-r--  4 helena helena     0 фев 20 21:33 hard2.txt

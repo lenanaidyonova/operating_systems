@@ -1,0 +1,114 @@
+    PID TTY      STAT   TIME COMMAND
+   2369 tty2     Ssl+   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+   2371 tty2     Sl+  115:52  \_ /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+   2398 tty2     Sl+    0:00  \_ /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+   2465 ?        Ss     0:00      \_ /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+   2289 ?        SLl    0:02 /usr/bin/gnome-keyring-daemon --daemonize --login
+   2273 ?        Ss     0:06 /lib/systemd/systemd --user
+   2274 ?        S      0:00  \_ (sd-pam)
+   2279 ?        S<sl  90:26  \_ /usr/bin/pulseaudio --daemonize=no --log-target=journal
+   2281 ?        SNsl   0:05  \_ /usr/libexec/tracker-miner-fs
+   2284 ?        Ss     0:25  \_ /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   2295 ?        Ssl    0:00  \_ /usr/libexec/gvfsd
+   2687 ?        Sl     0:00  |   \_ /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+   5107 ?        Sl     0:00  |   \_ /usr/libexec/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+   5121 ?        Sl     0:00  |   \_ /usr/libexec/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/3
+  58508 ?        Sl     0:00  |   \_ /usr/libexec/gvfsd-google --spawner :1.3 /org/gtk/gvfs/exec_spaw/4
+   2310 ?        Sl     0:00  \_ /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+   2318 ?        Ssl    0:01  \_ /usr/libexec/gvfs-udisks2-volume-monitor
+   2325 ?        Ssl    0:00  \_ /usr/libexec/gvfs-mtp-volume-monitor
+   2332 ?        Ssl    0:00  \_ /usr/libexec/gvfs-goa-volume-monitor
+   2337 ?        SLl    0:13  \_ /usr/libexec/goa-daemon
+   2344 ?        Sl     0:01  \_ /usr/libexec/goa-identity-service
+   2350 ?        Ssl    0:07  \_ /usr/libexec/gvfs-afc-volume-monitor
+   2355 ?        Ssl    0:00  \_ /usr/libexec/gvfs-gphoto2-volume-monitor
+   2497 ?        Ssl    0:00  \_ /usr/libexec/at-spi-bus-launcher
+   2502 ?        S      0:06  |   \_ /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+   2524 ?        Ssl    0:00  \_ /usr/libexec/gnome-session-ctl --monitor
+   2531 ?        Ssl    0:04  \_ /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+   2726 ?        Sl     0:01  |   \_ /usr/libexec/evolution-data-server/evolution-alarm-notify
+   2743 ?        Sl     0:00  |   \_ /usr/libexec/gsd-disk-utility-notify
+   3454 ?        Sl     0:06  |   \_ update-notifier
+   2545 ?        Ssl  154:13  \_ /usr/bin/gnome-shell
+   2587 ?        Sl     0:15  |   \_ ibus-daemon --panel disable --xim
+   2591 ?        Sl     0:00  |   |   \_ /usr/libexec/ibus-memconf
+   2592 ?        Sl     0:03  |   |   \_ /usr/libexec/ibus-extension-gtk3
+   2792 ?        Sl     0:05  |   |   \_ /usr/libexec/ibus-engine-simple
+ 231106 ?        Sl     0:16  |   \_ /snap/discord/150/usr/share/discord/Discord --use-tray-icon --no-sandbox --disable-seccomp-filter-sandbox
+ 231190 ?        S      0:00  |       \_ /snap/discord/150/usr/share/discord/Discord --type=zygote --no-zygote-sandbox --disable-seccomp-filter-sandbox --no-sandbox
+ 231228 ?        Sl     4:02  |       |   \_ /snap/discord/150/usr/share/discord/Discord --type=gpu-process --field-trial-handle=13297742435397573599,13743207113328012807,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --disable-seccomp-filter-sandbox --no-sandbox --enable-crash-reporter=2f9b3a7a-1656-4012-a951-e6c7e2bbb639,no_channel --global-crash-keys=2f9b3a7a-1656-4012-a951-e6c7e2bbb639,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.25 --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files
+ 231191 ?        S      0:00  |       \_ /snap/discord/150/usr/share/discord/Discord --type=zygote --disable-seccomp-filter-sandbox --no-sandbox
+ 231237 ?        Sl     0:02  |       \_ /snap/discord/150/usr/share/discord/Discord --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=13297742435397573599,13743207113328012807,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --lang=ru --service-sandbox-type=none --no-sandbox --enable-crash-reporter=2f9b3a7a-1656-4012-a951-e6c7e2bbb639,no_channel --global-crash-keys=2f9b3a7a-1656-4012-a951-e6c7e2bbb639,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.25 --shared-files=v8_context_snapshot_data:100
+ 231288 ?        Sl    45:17  |       \_ /snap/discord/150/usr/share/discord/Discord --type=renderer --disable-seccomp-filter-sandbox --no-sandbox --autoplay-policy=no-user-gesture-required --field-trial-handle=13297742435397573599,13743207113328012807,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --lang=ru --enable-crash-reporter=2f9b3a7a-1656-4012-a951-e6c7e2bbb639,no_channel --global-crash-keys=2f9b3a7a-1656-4012-a951-e6c7e2bbb639,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.25 --app-path=/snap/discord/150/usr/share/discord/resources/app.asar --no-sandbox --no-zygote --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --enable-node-leakage-in-renderers
+ 231325 ?        Sl     0:00  |       \_ /snap/discord/150/usr/share/discord/Discord --type=utility --utility-sub-type=audio.mojom.AudioService --field-trial-handle=13297742435397573599,13743207113328012807,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --lang=ru --service-sandbox-type=none --no-sandbox --enable-crash-reporter=2f9b3a7a-1656-4012-a951-e6c7e2bbb639,no_channel --global-crash-keys=2f9b3a7a-1656-4012-a951-e6c7e2bbb639,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.25 --shared-files=v8_context_snapshot_data:100
+   2594 ?        Sl     0:09  \_ /usr/libexec/ibus-x11 --kill-daemon
+   2596 ?        Sl     0:01  \_ /usr/libexec/ibus-portal
+   2607 ?        Sl     0:27  \_ /usr/libexec/at-spi2-registryd --use-gnome-session
+   2612 ?        Ssl    0:00  \_ /usr/libexec/xdg-permission-store
+   2614 ?        Sl     0:01  \_ /usr/libexec/gnome-shell-calendar-server
+   2623 ?        Ssl    0:01  \_ /usr/libexec/evolution-source-registry
+   2631 ?        Sl     0:00  \_ /usr/libexec/dconf-service
+   2634 ?        Ssl    0:00  \_ /usr/libexec/gvfsd-metadata
+   2642 ?        Ssl    0:04  \_ /usr/libexec/evolution-calendar-factory
+   2656 ?        Ssl    0:00  \_ /usr/libexec/evolution-addressbook-factory
+   2675 ?        Sl     0:00  \_ /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   2697 ?        Ssl    0:01  \_ /usr/libexec/gsd-a11y-settings
+   2698 ?        Ssl    0:03  \_ /usr/libexec/gsd-color
+   2699 ?        Ssl    0:01  \_ /usr/libexec/gsd-datetime
+   2701 ?        Ssl    0:10  \_ /usr/libexec/gsd-housekeeping
+   2705 ?        Ssl    0:02  \_ /usr/libexec/gsd-keyboard
+   2707 ?        Ssl    0:14  \_ /usr/libexec/gsd-media-keys
+   2713 ?        Ssl    0:04  \_ /usr/libexec/gsd-power
+   2715 ?        Ssl    0:01  \_ /usr/libexec/gsd-print-notifications
+   2716 ?        Ssl    0:01  \_ /usr/libexec/gsd-rfkill
+   2723 ?        Ssl    0:01  \_ /usr/libexec/gsd-screensaver-proxy
+   2727 ?        Ssl    0:17  \_ /usr/libexec/gsd-sharing
+   2728 ?        Ssl    0:01  \_ /usr/libexec/gsd-smartcard
+   2731 ?        Ssl    0:01  \_ /usr/libexec/gsd-sound
+   2734 ?        Ssl    0:01  \_ /usr/libexec/gsd-usb-protection
+   2745 ?        Ssl    0:02  \_ /usr/libexec/gsd-wacom
+   2753 ?        Ssl    0:01  \_ /usr/libexec/gsd-wwan
+   2768 ?        Ssl    0:03  \_ /usr/libexec/gsd-xsettings
+   2803 ?        Sl     0:34  \_ /snap/snap-store/638/usr/bin/snap-store --gapplication-service
+   2837 ?        Sl     0:00  \_ /usr/libexec/gsd-printer
+   2857 ?        Ssl    0:01  \_ /usr/libexec/xdg-document-portal
+   2974 ?        Ssl    0:06  \_ /usr/libexec/xdg-desktop-portal
+   2978 ?        Ssl    0:06  \_ /usr/libexec/xdg-desktop-portal-gtk
+ 146036 ?        Ssl    0:09  \_ python3 -m sage.repl.ipython_kernel -f /home/helena/.local/share/jupyter/runtime/kernel-714a56a4-1b6c-4973-bd54-2ab0d01667c9.json
+ 148448 ?        Ssl    0:07  \_ python3 -m sage.repl.ipython_kernel -f /home/helena/.local/share/jupyter/runtime/kernel-ea16fb39-adf8-4912-9067-c5e1abbf1f96.json
+ 148699 ?        Ssl    0:07  \_ python3 -m sage.repl.ipython_kernel -f /home/helena/.local/share/jupyter/runtime/kernel-07e19046-7e65-49f2-87ae-63683b9872b6.json
+ 148978 ?        Ssl    0:07  \_ python3 -m sage.repl.ipython_kernel -f /home/helena/.local/share/jupyter/runtime/kernel-3404fa71-1e8f-4cea-891d-edb7c275ac4a.json
+ 149235 ?        Ssl    0:07  \_ python3 -m sage.repl.ipython_kernel -f /home/helena/.local/share/jupyter/runtime/kernel-f158475d-62d8-4f0b-9bd0-de2e5c6cfc2a.json
+ 149459 ?        Ssl    0:08  \_ python3 -m sage.repl.ipython_kernel -f /home/helena/.local/share/jupyter/runtime/kernel-3f813134-e11e-4311-9640-2354b9aed4de.json
+ 149856 ?        Ssl    0:07  \_ python3 -m sage.repl.ipython_kernel -f /home/helena/.local/share/jupyter/runtime/kernel-d45b0270-cdd1-4b0a-bfef-19d9b2a580dc.json
+ 213217 ?        SLl    5:12  \_ /opt/google/chrome/chrome --enable-crashpad
+ 213222 ?        S      0:00  |   \_ cat
+ 213223 ?        S      0:00  |   \_ cat
+ 213233 ?        S      0:00  |   \_ /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --enable-crashpad --crashpad-handler-pid=213225 --enable-crash-reporter=54de67d3-c9a3-42e3-a9db-0a2be7ab07cc, --change-stack-guard-on-fork=enable --enable-crashpad
+ 213261 ?        Sl    19:55  |   |   \_ /opt/google/chrome/chrome --type=gpu-process --enable-crashpad --crashpad-handler-pid=213225 --enable-crash-reporter=54de67d3-c9a3-42e3-a9db-0a2be7ab07cc, --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,3485284285125328113,14903046908392319264,131072
+ 213234 ?        S      0:00  |   \_ /opt/google/chrome/chrome --type=zygote --enable-crashpad --crashpad-handler-pid=213225 --enable-crash-reporter=54de67d3-c9a3-42e3-a9db-0a2be7ab07cc, --change-stack-guard-on-fork=enable --enable-crashpad
+ 213235 ?        S      0:00  |   |   \_ /opt/google/chrome/nacl_helper
+ 213238 ?        S      0:00  |   |   \_ /opt/google/chrome/chrome --type=zygote --enable-crashpad --crashpad-handler-pid=213225 --enable-crash-reporter=54de67d3-c9a3-42e3-a9db-0a2be7ab07cc, --change-stack-guard-on-fork=enable --enable-crashpad
+ 213289 ?        Sl     0:04  |   |       \_ /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=ru --service-sandbox-type=utility --enable-crashpad --crashpad-handler-pid=213225 --enable-crash-reporter=54de67d3-c9a3-42e3-a9db-0a2be7ab07cc, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3485284285125328113,14903046908392319264,131072
+ 231933 ?        Sl     0:27  |   |       \_ /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=213225 --enable-crash-reporter=54de67d3-c9a3-42e3-a9db-0a2be7ab07cc, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=ru --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=296 --time-ticks-at-unix-epoch=-1678515016968998 --launch-time-ticks=230956734984 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3485284285125328113,14903046908392319264,131072
+ 251940 ?        Sl     0:01  |   |       \_ /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=213225 --enable-crash-reporter=54de67d3-c9a3-42e3-a9db-0a2be7ab07cc, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=ru --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=307 --time-ticks-at-unix-epoch=-1678515016968998 --launch-time-ticks=232456735737 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3485284285125328113,14903046908392319264,131072
+ 252020 ?        Sl     0:02  |   |       \_ /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=213225 --enable-crash-reporter=54de67d3-c9a3-42e3-a9db-0a2be7ab07cc, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=ru --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=310 --time-ticks-at-unix-epoch=-1678515016968998 --launch-time-ticks=232491087536 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3485284285125328113,14903046908392319264,131072
+ 252133 ?        Sl     0:02  |   |       \_ /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=213225 --enable-crash-reporter=54de67d3-c9a3-42e3-a9db-0a2be7ab07cc, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=ru --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=313 --time-ticks-at-unix-epoch=-1678515016968998 --launch-time-ticks=232548547732 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3485284285125328113,14903046908392319264,131072
+ 252150 ?        Sl     0:04  |   |       \_ /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=213225 --enable-crash-reporter=54de67d3-c9a3-42e3-a9db-0a2be7ab07cc, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=ru --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=314 --time-ticks-at-unix-epoch=-1678515016968998 --launch-time-ticks=232548652963 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3485284285125328113,14903046908392319264,131072
+ 253060 ?        Sl     0:00  |   |       \_ /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=213225 --enable-crash-reporter=54de67d3-c9a3-42e3-a9db-0a2be7ab07cc, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=ru --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=323 --time-ticks-at-unix-epoch=-1678515016968998 --launch-time-ticks=233656731442 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3485284285125328113,14903046908392319264,131072
+ 213262 ?        Sl     2:01  |   \_ /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=ru --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=213225 --enable-crash-reporter=54de67d3-c9a3-42e3-a9db-0a2be7ab07cc, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3485284285125328113,14903046908392319264,131072 --enable-crashpad
+ 213518 ?        Sl     1:28  |   \_ /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=ru --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=213225 --enable-crash-reporter=54de67d3-c9a3-42e3-a9db-0a2be7ab07cc, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3485284285125328113,14903046908392319264,131072 --enable-crashpad
+ 213225 ?        Sl     0:00  \_ /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/helena/.config/google-chrome/Crash Reports --metrics-dir=/home/helena/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 20.04.5 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=107.0.5304.110 --initial-client-fd=5 --shared-client-connection
+ 213227 ?        Sl     0:00  \_ /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/helena/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 20.04.5 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=107.0.5304.110 --initial-client-fd=4 --shared-client-connection
+ 231716 ?        Sl     0:00  \_ /usr/lib/libreoffice/program/oosplash --writer file:///home/helena/oc_lab3.odt
+ 231751 ?        Sl     0:19  |   \_ /usr/lib/libreoffice/program/soffice.bin --writer file:///home/helena/oc_lab3.odt
+ 231821 ?        Ssl    0:11  \_ /usr/libexec/gnome-terminal-server
+ 231829 pts/0    Ss     0:00  |   \_ bash
+ 253257 pts/0    S+     0:00  |       \_ ./father2
+ 253258 pts/0    S+     0:00  |           \_ son1
+ 253259 pts/0    S+     0:00  |           \_ son2
+ 253260 pts/0    S+     0:00  |           \_ son3
+ 253261 pts/0    S+     0:00  |           \_ sh -c ps xf > file.txt
+ 253262 pts/0    R+     0:00  |               \_ ps xf
+ 250953 ?        Sl     0:23  \_ /usr/bin/nautilus --gapplication-service
+ 252509 ?        Sl     0:10  \_ /usr/bin/gedit --gapplication-service

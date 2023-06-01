@@ -1,0 +1,3 @@
+lrwxrwxrwx  1 root root           20 фев  4  2022 cc -> /etc/alternatives/cc
+lrwxrwxrwx  1 root root     25 фев  4  2022 cc.1.gz -> /etc/alternatives/cc.1.gz
+total 2
